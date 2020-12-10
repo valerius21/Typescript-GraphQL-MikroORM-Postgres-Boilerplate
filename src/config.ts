@@ -1,3 +1,6 @@
+/**
+ * Config for APP
+ */
 export const __public_url__ = process.env.PUBLIC_URL || "http://localhost";
 export const __port__ = process.env.PORT ? +process.env.PORT : 5000;
 export const __db_name__ = process.env.DB_NAME || "tpmg";

@@ -1,3 +1,6 @@
+/**
+ * Typings for env vars
+ */
 declare namespace NodeJS {
   interface ProcesEnv {
     NODE_ENV: "development" | "production" | "test";

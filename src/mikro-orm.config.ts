@@ -7,6 +7,9 @@ import {
   __is_prod__,
 } from "./config";
 
+/**
+ * MirkroORM config
+ */
 export default {
   migrations: {
     path: path.join(__dirname, "./migrations"),
