@@ -6,6 +6,7 @@ import {
   __db_user__,
   __is_prod__,
 } from "./config";
+import { User } from "./entities/User";
 
 /**
  * MirkroORM config
@@ -15,7 +16,7 @@ export default {
     path: path.join(__dirname, "./migrations"),
     pattern: /^[\w-]+\d+\.[tj]s$/,
   },
-  entities: [], // adding entities
+  entities: [User], // adding entities
   dbName: __db_name__,
   user: __db_user__,
   password: __db_password__,
