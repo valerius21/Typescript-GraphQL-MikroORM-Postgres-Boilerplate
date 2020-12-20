@@ -1,4 +1,4 @@
-# Typescript + Apollo GraphQL + MikroORM + Postgres Starter Pack (TMPG)
+# Typescript + Apollo GraphQL + MikroORM + Postgres Starter Pack
 
 This is a opinionated, personal boilerplate template for Typescript + Apollo GraphQL + MikroORM + Postgres stacked backends.
 
