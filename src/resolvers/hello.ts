@@ -7,6 +7,6 @@ import { Query, Resolver } from "type-graphql";
 export class HelloResolver {
   @Query(() => String)
   hello() {
-    return "sup bitch";
+    return "Hello from hello.ts";
   }
 }
